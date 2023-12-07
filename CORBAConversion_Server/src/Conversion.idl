@@ -1,0 +1,10 @@
+// Module corbaConversion
+// Ce module définit l'interface IConversionRemote.
+
+module corbaConversion {
+  interface IConversionRemote {
+    // La méthode conversionMontant prend un montant en entrée (mt) de type float
+    // et renvoie le montant converti de type double.
+    double conversionMontant(in float mt);
+  };
+};
